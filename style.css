@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+body p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+body button {
+    font-weight: bold !important;
+    font-size: 21px;
+}
+
+.main-header {
+    background: url('img/hero-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.main-nav {
+    background-color: rgb(34, 40, 49);
+}
+
+nav .navbar-nav li {
+    margin: 0px 10px;
+}
+
+nav .navbar-nav li a {
+    color: white;
+    font-size: 21px;
+}
+
+nav .navbar-nav li a:hover {
+    color: rgb(247, 145, 30);
+}
+
+nav .nav-item .active {
+    color: rgb(247, 145, 30);
+}
+
+nav i {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav .navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Cookie', cursive;
+}
+
+.hero {
+    margin-top: 230px;
+    /* margin-left: 50px; */
+}
+
+.hero .logo {
+    font-size: 57px;
+    font-family: 'Cookie', cursive;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.box {
+    background-color: rgb(34, 40, 49);
+    padding: 10px;
+}
+
+.box .order-btn {
+    padding: 8px 25px;
+    font-size: 17px;
+}
+
+.menu-card {
+    background-color: rgb(241, 242, 243);
+}
+
+.menu-card .card-body {
+    background-color: rgb(34, 40, 49);
+}
+
+.menu-card .buy-icon {
+    padding: 12px;
+}
+
+.menu-card .menu-img {
+    height: 30vh;
+    width: 20vw;
+}
+
+#about {
+    background-color: rgb(34, 40, 49);
+}
+
+footer {
+    background-color: rgb(34, 40, 49);
+}
+
+footer .social-icons {
+    font-size: 27px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.special {
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+}
+
+.main-head {
+    font-family: 'Cookie', cursive;
+    font-size: 65px;
+    color: rgb(34, 40, 49);
+}
+
+#UpArrow {
+    position: fixed;
+    right: 10px;
+    bottom: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.card-body i {
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .main-header {
+        background: url('img/hero-bg.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .hero {
+        margin-top: 100px;
+        /* margin-left: 50px; */
+    }
+    .hero .logo {
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+    .menu-card .menu-img {
+        height: 30vh;
+        width: auto;
+    }
+    #about {
+        background-color: rgb(34, 40, 49);
+        background-repeat: no-repeat;
+    }
+    #about .about-img {
+        display: none;
+    }
+    .booking-table {
+        display: none;
+    }
+}
